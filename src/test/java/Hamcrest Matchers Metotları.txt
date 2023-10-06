@@ -1,0 +1,13 @@
+Hamcrest Matchers Metotları:
+    1.  equalTo(): Bir değerin diğer bir değere eşit olup olmadığını kontrol eder.
+    2.  equalToIgnoringCase(): İki dizenin büyük-küçük harf duyarsız olarak eşit olup olmadığını kontrol eder.
+    3.  not(): Bir değerin diğer bir değere eşit olmadığını kontrol eder.
+    4.  containsString(): Bir dizenin başka bir dizeyi içerip içermediğini kontrol eder.
+    5.  startsWith(): Bir dizenin belirtilen dizeyle başlayıp başlamadığını kontrol eder.
+    6.  endsWith(): Bir dizenin belirtilen dizeyle bittiğini kontrol eder.
+    7.  hasSize(): Bir koleksiyonun belirli bir boyuta sahip olup olmadığını kontrol eder.
+    8.  hasItem(): Bir koleksiyonda belirli bir öğenin bulunup bulunmadığını kontrol eder.
+    9.  hasItems(): Bir koleksiyonun belirtilen öğeleri içerip içermediğini kontrol eder.
+    10. anyOf(): Belirtilen şartlardan herhangi birinin doğru olup olmadığını kontrol eder.
+    11. allOf(): Belirtilen tüm şartların doğru olup olmadığını kontrol eder.
+    12. greaterThan(), greaterThanOrEqualTo(), lessThan(), lessThanOrEqualTo(): Sayısal değerleri karşılaştırmak için kullanılan metotlar.
