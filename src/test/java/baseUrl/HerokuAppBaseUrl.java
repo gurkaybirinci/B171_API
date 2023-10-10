@@ -5,15 +5,14 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Before;
 
-public class PetStoreBaseUrl {
+public class HerokuAppBaseUrl {
 
     protected RequestSpecification spec;
 
     @Before
     public void setup() {
         spec = new RequestSpecBuilder()
-                .setBaseUri("https://petstore.swagger.io/v2")
-                .setContentType(ContentType.JSON)
+                .setBaseUri("https://restful-booker.herokuapp.com")
                 .build();
     }
 }

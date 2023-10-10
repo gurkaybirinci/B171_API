@@ -5,14 +5,14 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Before;
 
-public class PetStoreBaseUrl {
+public class JsonPlaceHolderBaseUrl {
 
     protected RequestSpecification spec;
 
     @Before
     public void setup() {
         spec = new RequestSpecBuilder()
-                .setBaseUri("https://petstore.swagger.io/v2")
+                .setBaseUri("https://jsonplaceholder.typicode.com")
                 .setContentType(ContentType.JSON)
                 .build();
     }
