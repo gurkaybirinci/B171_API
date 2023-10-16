@@ -7,9 +7,15 @@ public class JsonPlaceHolderTestData {
 
     public Map<String, Object> getPayLoad(Integer userId, String title, Boolean completed){
         Map<String, Object> payLoad = new HashMap<>();
-        payLoad.put("userId", userId);
-        payLoad.put("title", title);
-        payLoad.put("completed", completed);
+        if (userId!=null){
+            payLoad.put("userId", userId);
+        }
+        if (title!=null){
+            payLoad.put("title", title);
+        }
+        if (completed!=null){
+            payLoad.put("completed", completed);
+        }
         return payLoad;
     }
 }
